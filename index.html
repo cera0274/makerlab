@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cristiano Cerasoli – UX Portfolio</title>
+
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+  body {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    background: linear-gradient(135deg, #f4f0ff, #ece9ff, #f7f5fc);
+    background-attachment: fixed;
+    color: #3d3663;
+  }
+
+  header {
+    text-align: center;
+    padding: 25px 15px;
+    background: rgba(255,255,255,0.6);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid #e5dbff;
+    position: sticky;
+    top: 0;
+    z-index: 20;
+  }
+
+  header h1 {
+    margin: 0;
+    font-size: 2.3rem;
+    font-weight: 700;
+    color: #3a2686;
+  }
+
+  nav {
+    margin-top: 10px;
+  }
+
+  nav a {
+    margin: 0 14px;
+    text-decoration: none;
+    color: #5a3db8;
+    font-weight: 600;
+    transition: 0.2s ease;
+  }
+
+  nav a:hover {
+    color: #7d5cf1;
+  }
+
+  .container {
+    max-width: 950px;
+    margin: 40px auto;
+    padding: 0 20px;
+  }
+
+  .card {
+    background: white;
+    padding: 35px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 25px rgba(94, 63, 198, 0.12);
+    margin-bottom: 40px;
+    animation: fadeIn 0.7s ease forwards;
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  .hero h2 {
+    font-size: 2rem;
+    color: #3a2a80;
+    margin-top: 0;
+  }
+
+  .image-slot {
+    background: #f0eaff;
+    border: 2px dashed #a087ff;
+    padding: 40px;
+    border-radius: 18px;
+    text-align: center;
+    margin: 30px auto;
+    color: #6b57c8;
+    font-style: italic;
+    max-width: 260px;
+  }
+
+  h2 {
+    margin-top: 0;
+    font-size: 1.8rem;
+    color: #3a2a80;
+  }
+
+  .project-list {
+    padding-left: 15px;
+    margin-top: 18px;
+  }
+
+  .project-list li {
+    margin: 14px 0;
+  }
+
+  .project-list a {
+    background: #ece6ff;
+    padding: 10px 15px;
+    border-radius: 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: #4b32a3;
+    font-weight: 600;
+    transition: 0.2s;
+  }
+
+  .project-list a:hover {
+    background: #dcd2ff;
+    transform: translateY(-2px);
+  }
+</style>
+
+</head>
+
+<body>
+
+<header>
+  <h1>Cristiano Cerasoli</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="gmp1.html">GMP1</a>
+    <a href="gmp2.html">GMP2</a>
+  </nav>
+</header>
+
+<div class="container">
+  <!-- BIO -->
+  <section class="card">
+    <h2>About Me</h2>
+
+    <div class="image-slot"><img src="me.png"
+     style="width:100%; height:auto; border-radius:12px; display:block;">
+</div>
+
+    <p>
+      I’m Cristiano Cerasoli, a UX design student interested in socially responsible
+      design and the ways small, practical interventions can create meaningful impact.
+      I’m drawn to human-centered projects that highlight dignity, accessibility, and
+      emotional well-being, especially for people whose needs are overlooked. In Maker
+      Lab I, I learned how hands-on making and iteration can
+      deepen the design process. My design approach blends empathy, curiosity, a
+      commitment to challenging assumptions, and a passion for finding design opportunities
+      hidden within everyday problems.
+    </p>
+  </section>
+
+  <!-- PROJECT LINKS -->
+  <section class="card">
+    <h2>Maker Lab I Case Studies</h2>
+    <ul class="project-list">
+      <li><a href="gmp1.html">GMP1 — Multifunctional Hygiene & Comfort Pack</a></li>
+      <li><a href="gmp2.html">GMP2 — Nonverbal Patient Communicator</a></li>
+    </ul>
+  </section>
+
+</div>
+
+</body>
+</html>

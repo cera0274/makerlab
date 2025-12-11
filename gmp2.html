@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GMP2 – Nonverbal Patient Communicator</title>
+
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+  body {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    background: linear-gradient(135deg, #f4f0ff, #ece9ff, #f7f5fc);
+    background-attachment: fixed;
+    color: #3d3663;
+  }
+
+  header {
+    text-align: center;
+    padding: 25px 15px;
+    background: rgba(255,255,255,0.6);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid #e5dbff;
+    position: sticky;
+    top: 0;
+    z-index: 20;
+  }
+
+  header h1 {
+    margin: 0;
+    font-size: 2.3rem;
+    font-weight: 700;
+    color: #3a2686;
+  }
+
+  nav {
+    margin-top: 10px;
+  }
+
+  nav a {
+    margin: 0 14px;
+    text-decoration: none;
+    color: #5a3db8;
+    font-weight: 600;
+    transition: 0.2s ease;
+  }
+
+  nav a:hover {
+    color: #7d5cf1;
+  }
+
+  .container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+  }
+
+  .card {
+    background: white;
+    padding: 35px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 25px rgba(94, 63, 198, 0.12);
+    margin-bottom: 40px;
+    animation: fadeIn 0.7s ease forwards;
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  h2 {
+    margin-top: 0;
+    font-size: 1.9rem;
+    color: #3a2a80;
+  }
+
+  .image-slot {
+    background: #f0eaff;
+    border: 2px dashed #a087ff;
+    padding: 40px;
+    border-radius: 18px;
+    text-align: center;
+    margin: 25px auto;
+    color: #6b57c8;
+    font-style: italic;
+    max-width: 300px;
+  }
+</style>
+
+</head>
+
+<body>
+
+<header>
+  <h1>GMP2 Case Study</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="gmp1.html">GMP1</a>
+    <a href="gmp2.html">GMP2</a>
+  </nav>
+</header>
+
+<div class="container">
+
+  <!-- TITLE CARD -->
+  <section class="card">
+    <h2>Nonverbal Patient Communicator</h2>
+
+    <div class="image-slot"><img src="lights.png"
+     style="width:100%; height:auto; border-radius:12px; display:block;">
+</div>
+
+    <p>A light-based communication tool designed for patients who cannot speak.</p>
+  </section>
+
+  <!-- SUMMARY -->
+  <section class="card">
+    <h2>Summary</h2>
+
+    <div class="image-slot"><img src="concept2.png"
+     style="width:100%; height:auto; border-radius:12px; display:block;">
+</div>
+
+    <p>
+      Our GMP2 project focused on creating a communication device for patients who
+      are unable to speak, such as those who are intubated, sedated, or recovering
+      from surgery. We developed a simple system using an Arduino, LEDs, and basic
+      button inputs to allow patients to express emotions, needs, or discomfort using colour.
+      My work in the group was focused on shaping the project’s concept, writing, and
+      presentation. While the device was technically simple, its purpose was rooted in
+      empathy to enable clear, low-effort communication in situations where
+      misunderstanding can create stress or risk. The prototype highlighted how small,
+      thoughtful interventions can support dignity and autonomy in healthcare settings.
+    </p>
+  </section>
+
+  <!-- DESIGN PROBLEM -->
+  <section class="card">
+    <h2>Design Problem</h2>
+
+    <div class="image-slot"><img src="download.jpg"
+     style="width:100%; height:auto; border-radius:12px; display:block;">
+</div>
+
+    <p>
+      Nonverbal patients experience major communication barriers that can affect
+      their comfort, care, and emotional well-being. Existing tools are often complex,
+      require mobility, or expensive. Our challenge was to design
+      something intuitive, gentle, and inexpensive; something that required almost no
+      physical effort and could be understood at a glance by caregivers. We chose LED
+      lights as our communication medium because they are responsive, emotionally expressive, and widely available. The underlying problem became designing a tool
+      that balanced clarity, accessibility, and technological simplicity within  a hospital environment.
+    </p>
+  </section>
+
+  <!-- DESIGN PROCESS -->
+  <section class="card">
+    <h2>Design Process</h2>
+
+    <div class="image-slot"><img src="beingbuilt2.png"
+     style="width:100%; height:auto; border-radius:12px; display:block;">
+</div>
+
+    <p>
+      We began by identifying gaps in hospital communication and discussing how
+      patients often (literally) lack a voice during vulnerable moments. Early
+      brainstorming explored gesture-based tools and using speakers, but we ultimately chose LEDs because they are simple, expressive, and
+      require minimal physical effort and range of motion. While the technical members of the group wired
+      and programmed the Arduino, I contributed through conceptual framing, design, and interpretation testing.
+    </p>
+
+    <p>
+      The building process was mostly smooth with some difficulties. The team encountered wiring issues and had to learn (on the spot) many of the skills needed for this project. These challenges
+      actually reinforced Ratto’s definition of critical making that prototypes are not meant
+      to be polished, fully refined products, but tools that help us think through messy social and
+      technical questions. Wark’s critique of maker culture also became relevant; that our
+      “simple” device still relied on manufactured components, hidden labour, and
+      broader sociotechnical systems. Throughout the process, we returned to our
+      central question: does this device communicate in a way that is clear, ethical,
+      and supportive of patient dignity?
+    </p>
+  </section>
+
+  <!-- EVALUATION -->
+  <section class="card">
+    <h2>Evaluation</h2>
+
+    <div class="image-slot"><img src="happy.png"
+     style="width:100%; height:auto; border-radius:12px; display:block;">
+</div>
+
+    <p>
+      Although technically minimal, our communicator prototype successfully opened
+      conversation about patient autonomy and accessibility. During the Show & Tell
+      session, viewers asked thoughtful questions about colour interpretation,
+      cultural differences, staff training, and how the device could fit into real clinical
+      settings. These responses showed that the concept resonated beyond the
+      presentation. The project deepened my understanding of how socially responsible
+      design and critical making intersect, as well as how even unfinished prototypes can
+      reveal meaningful insights. Overall, GMP2 helped me grow as a designer by
+      strengthening my empathy, communication thinking, and ability to connect
+      technical constraints with human needs.
+    </p>
+  </section>
+
+</div>
+
+</body>
+</html>
